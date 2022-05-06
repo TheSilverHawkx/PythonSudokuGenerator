@@ -2,7 +2,9 @@ from math import floor,sqrt
 from random import randint, shuffle
 from copy import deepcopy
 
-
+# Sudoku Table Class
+# Description:
+# Input:
 class Table:
     def __init__(self,size):
         self.table = []
